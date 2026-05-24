@@ -96,14 +96,3 @@ LoginScreen ──────────→ SignupScreen
          │     └── tap run → ActivitySummaryScreen
          └── Tab 2: ProfileScreen
 ```
-
----
-
-## ➡️ Next Steps (Phase 2)
-
-When you're ready to go beyond this frontend:
-
-1. **Add Firebase** — `firebase_auth` + `cloud_firestore` for real login and data
-2. **Add GPS tracking** — `geolocator` + `google_maps_flutter` to replace the map placeholder
-3. **State management** — Add `riverpod` or `provider` to share state across screens
-4. **Push notifications** — Alert players when their territory is under attack
