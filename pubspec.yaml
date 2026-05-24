@@ -1,0 +1,22 @@
+name: turfrun
+description: TurfRun - Fitness Territory Game
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0        # For futuristic typography (Orbitron, Rajdhani)
+  curved_navigation_bar: ^1.0.3  # Sleek animated bottom nav
+  percent_indicator: ^4.2.3   # Circular progress indicators for stats
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
